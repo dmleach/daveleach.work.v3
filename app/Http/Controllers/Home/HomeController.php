@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Home;
 
-class HomeController extends \App\Http\Controllers\Controller
+class HomeController extends \App\Http\Controllers\Base\BaseController
 {
-    public function __invoke()
+    public function __construct()
     {
-        echo "Hello, world!";
+        $this->output['content'] = 'Home controller content';
+        $this->view = 'home.home';
     }
 }
