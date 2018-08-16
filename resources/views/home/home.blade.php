@@ -5,5 +5,10 @@
 @endsection
 
 @section('content')
-    {{ $content }}
+<article id="home" class="panel intro">
+    <header>
+        <h1>Dave Leach</h1>
+        <p>Senior Software Analyst</p>
+    </header>
+</article>
 @endsection
