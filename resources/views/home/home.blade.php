@@ -1,14 +1,12 @@
 @extends('base.base')
 
 @section('title')
-    Home
+Home
 @endsection
 
 @section('content')
-<article id="home" class="panel intro">
-    <header>
-        <h1>Dave Leach</h1>
-        <p>Senior Software Analyst</p>
-    </header>
-</article>
+<header>
+    <h1>Dave Leach</h1>
+    <p>Senior Software Analyst</p>
+</header>
 @endsection
