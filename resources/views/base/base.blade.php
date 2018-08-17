@@ -25,10 +25,17 @@
             </nav>
 
             <div id="main">
-                @section('content')
-                    Base page content
-                @show
+                <article id="home" class="panel">
+                    @section('content')
+                        Base page content
+                    @show
+                </article>
             </div>
+        </div>
+        <div id="footer">
+            <ul class="copyright">
+                <li>&copy; 2018 Dave Leach</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
         </div>
     </body>
 </html>
