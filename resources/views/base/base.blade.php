@@ -20,6 +20,7 @@
             <nav id="nav">
                 <a href="home" class="icon fa-home"><span>Home</span></a>
                 <a href="projects" class="icon fa-folder"><span>Projects</span></a>
+                <a href="resume" class="icon fa-file"><span>Resume</span></a>
                 <a href="contact" class="icon fa-envelope"><span>Contact</span></a>
                 <a href="https://github.com/dmleach" class="icon fa-github"><span>Github</span></a>
                 <a href="https://linkedin.com/in/dmleach" class="icon fa-linkedin"><span>LinkedIn</span></a>
