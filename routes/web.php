@@ -15,3 +15,4 @@ Route::get('/', 'Home\HomeController');
 Route::get('/home', 'Home\HomeController');
 Route::get('/contact', 'Contact\ContactController');
 Route::get('/projects', 'Projects\ProjectsController');
+Route::get('/resume', 'Resume\ResumeController');
